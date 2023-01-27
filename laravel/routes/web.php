@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return "Hello world A Kolomiec";
 });
+
+Route::get('/shop', function (){
+    return "Каталог";
+});
+
+Route::get('/shop/12', function (){
+    return "Товар 12";
+});
