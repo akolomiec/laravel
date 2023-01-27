@@ -24,3 +24,11 @@ Route::get('/shop', function (){
 Route::get('/shop/12', function (){
     return "Товар 12";
 });
+
+Route::get('/post/{id}', function ($id) {
+    return 'Пост id = ' . $id;
+});
+
+Route::get('/post/{id}', function ($id) {
+    return 'Пост id = ' . $id;
+});
